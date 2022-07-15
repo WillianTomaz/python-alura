@@ -2,7 +2,7 @@ from fila_normal import filanormal
 from fila_prioritaria import FilaPrioritaria
 
 
-# Exemplos de código padrões
+# Exemplos de código sem padrões
 # fila_teste = filanormal()
 # fila_teste.atualizafila()
 # fila_teste.atualizafila()

@@ -1,4 +1,4 @@
-# Exemplos de código padrões
+# Exemplos de código sem padrões
 
 class filanormal:
   codigo: int = 0
