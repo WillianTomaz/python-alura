@@ -1,3 +1,5 @@
+# Exemplos de código com PEP-8 e Type hints
+
 class FilaBase:
   codigo: int = 0
   fila = []
