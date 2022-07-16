@@ -1,8 +1,11 @@
-# from fila_normal import filanormal
+from fila_normal import FilaNormal
 from fila_prioritaria import FilaPrioritaria
 
 
-# Exemplos de código sem padrões
+# Exemplos de código com PEP-8 e Type hints
+
+
+### Fila Normal ###
 # fila_teste = filanormal()
 # fila_teste.atualizafila()
 # fila_teste.atualizafila()
@@ -12,7 +15,7 @@ from fila_prioritaria import FilaPrioritaria
 
 
 
-# Exemplos de código com PEP-8 e Type hints
+### Fila Prioritaria ###
 fila_teste_2 = FilaPrioritaria()
 fila_teste_2.atualiza_fila()
 fila_teste_2.atualiza_fila()
