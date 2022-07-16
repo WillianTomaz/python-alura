@@ -1,22 +1,14 @@
+from fila_base import FilaBase
+
 # Exemplos de código sem padrões
 
-class filanormal:
-  codigo: int = 0
-  fila = []
-  clientesatendidos = []
-  senhaatual:str = ""
+class filanormal(FilaBase):
 
   def gerasenhaatual(self)->None:
     self.senhaatual = f'NM{self.codigo}'
 
-  def resetafila(self)->None:
-    if self.codigo >= 100:
-      self.codigo=0
-    else:
-      self.codigo+=1
-
   def atualizafila(self)->None:
-    self.resetafila()
+    self.reseta_fila()
     self.gerasenhaatual()
     self.fila.append(self.senhaatual)
 

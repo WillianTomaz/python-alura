@@ -1,20 +1,10 @@
+from fila_base import FilaBase
+
 # Exemplos de código com PEP-8 e Type hints
 
-class FilaPrioritaria:
-  codigo: int = 0
-  fila = []
-  clientes_atendidos = []
-  senha_atual: str = ""
-
+class FilaPrioritaria(FilaBase):
   def gera_senha_atual(self)-> None:
     self.senha_atual = f'PR{self.codigo}'
-
-
-  def reseta_fila(self)-> None:
-    if self.codigo >= 100:
-      self.codigo = 0
-    else:
-      self.codigo += 1
 
 
   def atualiza_fila(self)-> None:
