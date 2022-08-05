@@ -47,3 +47,6 @@ class ExtratorURL:
     "(URL) Completa: "    + self.url + "\n" + \
     "(URL) Base: "        + self.get_url_base() + "\n" + \
     "(URL) Parâmetros: "  + self.get_url_parametros()
+
+  def __eq__(self, other):
+    return self.url == other.url
