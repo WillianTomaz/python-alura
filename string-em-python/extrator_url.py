@@ -41,3 +41,9 @@ class ExtratorURL:
 
   def __len__(self):
     return len(self.url)
+
+  def __str__(self):
+    return \
+    "(URL) Completa: "    + self.url + "\n" + \
+    "(URL) Base: "        + self.get_url_base() + "\n" + \
+    "(URL) Parâmetros: "  + self.get_url_parametros()
