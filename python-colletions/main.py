@@ -21,3 +21,16 @@ print("-----------------------------------")
 contas = [conta_do_will, conta_da_ana]
 for conta in contas:
   print(conta)
+
+
+# Lista com todas as Contas (TUPLAS)
+print("-----------------------------------")
+
+guilherme = ('Guilherme', 37, 1981)
+daniela   = ('Daniela', 31, 1987)
+
+usuarios = [guilherme, daniela]
+print(usuarios)
+
+usuarios.append(('Paulo', 38, 1980))
+print(usuarios)
