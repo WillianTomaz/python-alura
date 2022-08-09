@@ -13,6 +13,9 @@ class ContaSalario:
     return f"Codigo: {self._codigo} | Saldo: {self._saldo}"
 
   def __eq__(self, outro):
-    return self._codigo == outro._codigo
+    if type(outro) != ContaSalario:
+      return False
+
+    return self._codigo == outro._codigo and self._saldo == outro._saldo
 
 
