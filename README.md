@@ -21,6 +21,11 @@
 - ### [/string-em-python/](https://github.com/TomazWill/python-alura/tree/master/string-em-python)
   - Curso: String em Python: extraindo informações de uma URL
 
+- ### /python-colletions/
+  - ### [/python-colletions-1/](https://github.com/TomazWill/python-alura/tree/master/python-colletions/python-colletions-1)
+    - Curso: Python Collections parte 1: listas e tuplas
+  - ### [/python-colletions-2/](https://github.com/TomazWill/python-alura/tree/master/python-colletions/python-colletions-2)
+    - Curso: Python Collections parte 2: conjuntos e dicionários
 ---
 <br>
 
@@ -33,3 +38,5 @@
   - [Python: entendendo a Orientação a Objetos](https://cursos.alura.com.br/course/python-3-intro-orientacao-objetos "Python: entendendo a Orientação a Objetos")
   - [Python: avançando na orientação a objetos](https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos "Python: avançando na orientação a objetos")
   - [String em Python: extraindo informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url "String em Python: extraindo informações de uma URL")
+  - [Python Colletions 1](https://cursos.alura.com.br/course/python-collections-listas-e-tuplas  "Python Colletions 1")
+  - [Python Colletions 2](https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios  "Python Colletions 2")
