@@ -1,5 +1,7 @@
+from functools import total_ordering
 
 
+@total_ordering
 class ContaSalario:
 
   def __init__(self, codigo):
@@ -20,4 +22,7 @@ class ContaSalario:
 
 
   def __lt__(self, outro):
-    return self._saldo < outro._saldo
+    if self._saldo != outro._saldo:
+      return self._saldo < outro._saldo
+
+    return self._codigo < outro._codigo
